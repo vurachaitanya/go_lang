@@ -59,3 +59,4 @@ root@chaitanya:~/go/src/hello_world# ./main
 -  single line comments : //
 -  https://golang.org/pkg/     "packages for Go lang"
 -  https://golang.org/pkg/fmt/ "FMT Package doc"
+- https://golang.org/pkg/fmt/#Println  "Examples "
