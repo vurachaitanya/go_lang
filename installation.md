@@ -34,4 +34,16 @@ endif
 ````
 - vim +PlugInstall +qa
 - vim +GoInstallBinaries +qa
+````
+cat ~/go/src/hello_world# cat main.go 
+package main
+
+import ""fmt"
+
+
+func main() {
+  fmt.Println(" Hello Chaitanya")
+  }
+  ````
+
 
