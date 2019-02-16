@@ -56,13 +56,14 @@ main  main.go
 root@chaitanya:~/go/src/hello_world# ./main 
  Hellow Chaitanya
 ````
-- Multiple line comments : /*     */
+-  Multiple line comments : /*     */
 -  single line comments : //
 -  https://golang.org/pkg/     "packages for Go lang"
 -  https://golang.org/pkg/fmt/ "FMT Package doc"
-- https://golang.org/pkg/fmt/#Println  "Examples "
+-  https://golang.org/pkg/fmt/#Println  "Examples "
+
+- /go/src# cat learn_strings.go 
 ````
-/go/src# cat learn_strings.go 
 package main
 
 import "fmt"
@@ -77,6 +78,38 @@ string
 	fmt.Println(" emojis ")
 	fmt.Println("\u22272")
 }
+````
+````
 
+root@chaitanya:~/go/src# cat learn_strings.go 
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Simple String")
+	fmt.Println(` 
+This is a multi-line \n
+
+string
+`)
+	fmt.Println("vura chaitanya")
+	fmt.Println('v')
+	//	fmt.Println('chaitanya')
+	fmt.Println("\u22272")
+}
+````
 
 ````
+root@chaitanya:~/go/src# go run learn_strings.go 
+Simple String
+ 
+This is a multi-line \n
+
+string
+
+vura chaitanya
+118
+∧2
+````
+
