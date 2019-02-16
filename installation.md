@@ -55,3 +55,7 @@ main  main.go
 root@chaitanya:~/go/src/hello_world# ./main 
  Hellow Chaitanya
 ````
+- Multiple line comments : /*     */
+-  single line comments : //
+-  https://golang.org/pkg/     "packages for Go lang"
+-  https://golang.org/pkg/fmt/ "FMT Package doc"
