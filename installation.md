@@ -1,4 +1,5 @@
 ### Go installation 
+- Online playground : https://play.golang.org/
 - location : https://golang.org/doc/install?download=go1.11.5.linux-amd64.tar.gz
 - export GOPATH=$HOME/go
 - export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
@@ -60,3 +61,22 @@ root@chaitanya:~/go/src/hello_world# ./main
 -  https://golang.org/pkg/     "packages for Go lang"
 -  https://golang.org/pkg/fmt/ "FMT Package doc"
 - https://golang.org/pkg/fmt/#Println  "Examples "
+````
+/go/src# cat learn_strings.go 
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Simple String")
+	fmt.Println(` 
+This is a multi-line \n
+
+string
+`)
+	fmt.Println(" emojis ")
+	fmt.Println("\u22272")
+}
+
+
+````
