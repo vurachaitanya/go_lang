@@ -4,6 +4,8 @@
 - export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 - mkdir -p $HOME/go{bin,src}
 - apt-get install vim
+- apt-get install golang-go
+- apt install gccgo-go
 - curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 - vi ~/.vimrc
@@ -32,3 +34,4 @@ endif
 ````
 - vim +PlugInstall +qa
 - vim +GoInstallBinaries +qa
+
