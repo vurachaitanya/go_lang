@@ -45,7 +45,8 @@ func main() {
   fmt.Println(" Hello Chaitanya")
   }
   ````
-````  #~/go/src/hello_world# go run main.go
+````  
+#~/go/src/hello_world# go run main.go
  Hellow Chaitanya
 
 #go build  main.go
