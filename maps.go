@@ -16,6 +16,7 @@ func main(){
 	age["nithya"] = 11
 	age["tannu"] = 18
 	age["chaitu"] = 6 //Latest defined would be given 
+        fmt.Println(age["Nidhi"])
 	fmt.Println(age)
 	fmt.Println(age["chaitu"])
 }

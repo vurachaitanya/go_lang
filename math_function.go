@@ -4,6 +4,4 @@ import (
 "math"
 )
 
-func main() {
-	fmt.Println("expo", math.Pow(20.0,3))
-}
+func main() {fmt.Println("expo", math.Pow(20.0,3)) }
