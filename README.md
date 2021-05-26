@@ -1,10 +1,12 @@
 # go_lang
 
+
 ### Advantages of Go:
 -	Code runs faster
 -	Garbage collections
 -	Simpler objects
--	Concurrency is efficiency 
+-	Concurrency is efficiency using goroutines
+
 
 
 ### Software Translation:
