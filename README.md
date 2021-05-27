@@ -7,7 +7,8 @@
 -	Simpler objects
 -	Concurrency is inbuilt which improves efficiency using **goroutines
 -	**Channels** help to solve this problem by providing a pattern that makes data safe from
-concurrent modification. Channels help to enforce the pattern that only one goroutine should modify the data at any time
+concurrent modification. Channels help to enforce the pattern that only one goroutine should modify the data at any time.
+  - The first goroutine passes a data value through the channel to a second goroutine that’s already waiting. The exchange of the data between both goroutines is synchronized, and once the hand-off occurs, both goroutines know the exchange took place.
 
 
 
