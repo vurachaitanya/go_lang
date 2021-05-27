@@ -6,6 +6,8 @@
 -	Garbage collections
 -	Simpler objects
 -	Concurrency is efficiency using goroutines
+-	**Channels** help to solve this problem by providing a pattern that makes data safe from
+concurrent modification. Channels help to enforce the pattern that only one goroutine should modify the data at any time
 
 
 
