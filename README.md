@@ -31,3 +31,47 @@ concurrent modification. Channels help to enforce the pattern that only one goro
 - Go-lang downloads: https://golang.org/
 - Creating workspaces ,writing code and testing: https://golang.org/doc/code#Workspaces
 - Various docs on go-lang: https://blog.golang.org/godoc
+
+
+
+### Bullet points 
+- **imports** - imports code and give access to identifiers such as functions, constants and interfaces.
+- log and OS are inbuilt function.
+- A Unit compiled code is called **package.
+- `_ "github.com/goinaction/code/chapter2/sample/matchers` - Technique to initialization from package even if you are not directly using, it will not import if not used. But init function calls if different code file within that package has it. - ONE WORD, imports if required only.
+- **INIT** code would be called if defined before the main function. Even main is starting of the program but INIT will take the preceding.
+
+
+### Variables :
+- For Variables which can directly used will get error. So we should use **map** and assign it to your variable
+- All variables are initialized to their Zero Value. 
+- `make(map[string]Matcher)` - A map is a reference type that you’re required to make in Go
+- Numeric type value = 0
+- Strings type value = empty string
+- Booleans type value = false
+- Pointers type value = nil
+- reference type values = nil Zero - Nil
+
+```
+package main
+
+import (
+"log"
+"os"
+
+_ "github.com/goinaction/code/chapter2/sample/matchers"
+"github.com/goinaction/code/chapter2/sample/search"
+)
+
+// init is called prior to main.
+func init() {
+// Change the device for logging to stdout.
+log.SetOutput(os.Stdout)
+}
+
+// main is the entry point for the program.
+func main() {
+// Perform the search for the specified term.
+search.Run("president")
+}
+```
