@@ -43,6 +43,8 @@ concurrent modification. Channels help to enforce the pattern that only one goro
 
 
 ### Variables :
+
+###### GOPATH & GOROOT Should be set to execute your program
 - For Variables which can directly used will get error. So we should use **map** and assign it to your variable
 - All variables are initialized to their Zero Value. 
 - `make(map[string]Matcher)` - A map is a reference type that you’re required to make in Go
