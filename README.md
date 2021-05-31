@@ -77,3 +77,15 @@ func main() {
 search.Run("president")
 }
 ```
+- ":=" This operator is used to both declare and initialize variables at the same time.
+- Use the keyword go to launch and schedule goroutines to run concurrently. Anonymous function as a goroutine,  function that’s declared without a name is call Anonymous. In below code each feed be processed independently in a concurrent fashion. 
+
+  - Functions accept a type Matcher and the address of a value type Feed. feed is a pointer variable. Pointer variables are grate to share variables between functions. They also allows function to access and change the state of the variable that we declared with in the scope of different functions and possible different goroutine.
+  
+
+```
+go func(matcher Matcher, feed *Feed) {
+  Match(matcher, feed, searchTerm, results)
+  waitGroup.Done()
+ }(matcher, feed)
+```
