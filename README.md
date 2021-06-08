@@ -36,9 +36,48 @@ concurrent modification. Channels help to enforce the pattern that only one goro
 
 
 ### Bullet points 
+- `GOPATH` - Path of the package modules which are download or go compiler to search for package location or environment variable lists places to look for Go code
+
+
+- `GOROOT` - Go binary distributions assume they will be installed in /usr/local/go, but it is possible to install the Go tools to a different location. In this case you must set the GOROOT environment variable to point to the directory in which it was installed. 
+
+
+- HOW TO EXECUTE `go run filename.go`
+
+
+- `go get "https://github.com/aws/aws-sdk-go/tree/main/service/s3"` this will download the required go packages to the current location.
+
+- `go get -u https://github.com/aws/aws-sdk-go/...` All the AWS related GO modules will be downloaded.
+
+
+### Variable assignation :
+
+- 1st type =  var a int \\ a= 55
+
+- 2nd type = var b int = 66
+
+- 3rd type = c := 77
+
+- `map` is an inbuilt data type in go lang. structure of map `make(map (key-type]value-type)` Make to initialize for the first time.
+
+- Pointers * for pointers, & reference 
+```
+x :=5
+y := &x
+fmt.println(x,y) 
+
+```
+```
+x :=5
+y := &x  ---- pointer of x
+*y = 6   ----- y pointer with 6 pointer (memory location) x's memory location changed to y
+fmt.println(x,*y) 
+Output = 6, 6
+```
+
 - **imports** - imports code and give access to identifiers such as functions, constants and interfaces.
 - log and OS are inbuilt function.
-- A Unit compiled code is called **package.
+- A Unit compiled code is called **package.**
 - `_ "github.com/goinaction/code/chapter2/sample/matchers` - Technique to initialization from package even if you are not directly using, it will not import if not used. But init function calls if different code file within that package has it. - ONE WORD, imports if required only.
 - **INIT** code would be called if defined before the main function. Even main is starting of the program but INIT will take the preceding.
 
