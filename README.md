@@ -50,6 +50,13 @@ concurrent modification. Channels help to enforce the pattern that only one goro
 - `go get -u https://github.com/aws/aws-sdk-go/...` All the AWS related GO modules will be downloaded.
 
 
+- `godoc fmt` to get more about fmt pkg
+- `go get` can be used to get the pkg if not present in local GOPATH location.
+- `BLANK IDENTIFIER The _`
+- init functions that are discovered by the compiler are scheduled to be executed prior to the main function
+-`go clean hello.go` After calling clean, the executable program is gone
+
+
 ### Variable assignation :
 
 - 1st type =  var a int \\ a= 55
