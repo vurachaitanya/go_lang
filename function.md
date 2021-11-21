@@ -1,0 +1,63 @@
+- Royale riviera resort	8019715189
+- countryside resorts	96663 54365
+- De villageo resort	 96400 65666
+- mrugavani resort	 83339 22955
+- chitra mandhir studio	96429 47411
+- pavani resorts1	9391095597/9949681192
+- pavani resorts	844 849 4592/ 
+- natures nest farm and resort	9515582390
+- sagar farm resort	93464 41567
+- brown town resort spa Convention 	91547 93006
+- button eyes resort	No rooms
+- Golkonda resorts	4035010101
+- pragati resorts hyderabad	 9848910056.
+- Ridhira retreat	91008 88643
+- treasure island resorts	
+- park exotica family resort	
+- taramati baradari	
+- heaven gaits resorts	
+- pragati resorts	
+- pleasant farm 	
+- blooming patch farm House	
+- Brown Town resort spa	
+- GMS Farm House 	
+- sagar farm and resort	
+- Lotus retreat farm house 	
+- Veeranna vital function 	
+- Natures Nest Farm and resort	
+- Mango retreat resort	
+- Marina Farm House	
+- Sunrise Farm 	
+- Pavani resorts	
+- Mrugavani resort and spa	
+- Lake Berry garden	
+- Chitra Mandhir studio 	
+- 	
+- 	
+- 	
+- Brown Town Resort spa and Convention	
+- Trance Greenfields resorts	
+- Boddam resorts	
+- Countryside resorts	
+- 	
+- Funtime Farmhouse	
+- Sagar Farm & Resort	
+- Mustaq Pariwar farm house	
+- Trance Greenfields Resorts 	
+- Trance Greenfields Resorts & Convention Centre	
+- Ali Royal Farm House	
+- Dream Valley Resorts	
+- Countryside Resorts 	
+- Aashrey Farms & resorts	
+- Mrugavani resorts and spa	
+- Reserver Lawans and Banquest 	
+- Brown Town resort and spa and convention	
+- Ridhira Retreat	
+- Boddam Farms & Resorts	
+- Meher Garden 	
+- Dew Drop party farm 	
+- Pragati green Meadows and resorts	
+- MS Royal Function Hall	
+- HF Convention 	
+- bareque house	
+- Palm exotica boutique resort and spa	
